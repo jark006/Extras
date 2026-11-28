@@ -1,13 +1,13 @@
 {
-    "version": "1.7.2.1",
+    "version": "1.7.3.0",
     "description": "Hierarchical note taking application, featuring rich text and syntax highlighting.",
     "homepage": "https://www.giuspen.com/cherrytree/",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://www.giuspen.com/software/cherrytree_1.7.2.1_win64_portable.7z",
-            "hash": "d183f6a43ea51b7b2e183600e22ab4afe9afa4e042d2862c26ea38056e463272",
-            "extract_dir": "cherrytree_1.7.2.1_win64_portable",
+            "url": "https://www.giuspen.com/software/cherrytree_1.7.3.0_win64_portable.7z",
+            "hash": "87a8261b676c96f3b96e1effecd49a6d49d18a6ff38226846d05aef1f4b143d2",
+            "extract_dir": "cherrytree_1.7.3.0_win64_portable",
             "pre_install": "if(!(Test-Path \"$dir\\config.cfg\")) { New-Item \"$dir\\config.cfg\" -ItemType File | Out-Null}",
             "bin": "ucrt64\\bin\\cherrytree.exe",
             "shortcuts": [
